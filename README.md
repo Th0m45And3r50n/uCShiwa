@@ -5,7 +5,7 @@ TLS encrypted reverseshell and listener in C#
 
 ## Help & Documentation
 
-execute it without any options to print help
+Execute it without any options to print help
 
 ## Linux
 
