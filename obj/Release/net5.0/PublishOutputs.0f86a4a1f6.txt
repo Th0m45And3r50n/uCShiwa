@@ -1,0 +1,5 @@
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Release\net5.0\publish\uCShiwa.exe
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Release\net5.0\publish\uCShiwa.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Release\net5.0\publish\uCShiwa.deps.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Release\net5.0\publish\uCShiwa.runtimeconfig.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Release\net5.0\publish\uCShiwa.pdb

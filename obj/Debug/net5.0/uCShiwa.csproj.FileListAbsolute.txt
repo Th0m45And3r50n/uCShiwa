@@ -1,0 +1,16 @@
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.exe
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.deps.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.runtimeconfig.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.runtimeconfig.dev.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\ref\uCShiwa.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\bin\Debug\net5.0\uCShiwa.pdb
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.AssemblyInfoInputs.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.AssemblyInfo.cs
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.csproj.CoreCompileInputs.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\ref\uCShiwa.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.pdb
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.genruntimeconfig.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa\uCShiwa\obj\Debug\net5.0\uCShiwa.csprojAssemblyReference.cache
