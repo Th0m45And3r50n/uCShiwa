@@ -1,7 +1,7 @@
 # uCShiwa
-TLS encrypted reverseshell and listener in C#, with a PowerShell obfuscation module.
+TLS encrypted reverseshell and listener in C# with a PowerShell obfuscation module.
 
-![exemple](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2.PNG)
+![exemple1](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2-windows.PNG)
 
 ## Help & Documentation
 
@@ -11,6 +11,8 @@ Execute it without any options to print help
 
 Use the .NET Core to run the listener from Linux
 
+![exemple2](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2-linux.PNG)
+
 ## Disclamer
 
 Consider online pfx file as compromised, use you own certificates !
@@ -19,7 +21,7 @@ Consider online pfx file as compromised, use you own certificates !
 
 `pwsh 1` to switch in powershell mode
 
-# Using Standalone Shellingan.ps1
+## Using the Standalone Shellingan.ps1
 
 Simple Recursive Powershell Command Obfuscation - for training purpose
 
@@ -37,6 +39,8 @@ Invoke-Shellingan -cmd 'write helloworld' -iex $true -recurse 1
 Then you just have to copy-paste the output where you want execute it.
 
 ## Proof Of Concept
+
+![exemple2](https://github.com/Aif4thah/uCShiwa/blob/main/POC-Shellingan.png)
 
 From your attack machine:
 ```console

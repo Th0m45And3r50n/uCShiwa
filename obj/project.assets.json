@@ -18364,11 +18364,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\uCShiwa\\uCShiwa.csproj",
+      "projectUniqueName": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\Ucshiwa-current\\uCShiwa\\uCShiwa.csproj",
       "projectName": "MyApp",
-      "projectPath": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\uCShiwa\\uCShiwa.csproj",
+      "projectPath": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\Ucshiwa-current\\uCShiwa\\uCShiwa.csproj",
       "packagesPath": "C:\\Users\\michael\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\uCShiwa\\obj\\",
+      "outputPath": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\Ucshiwa-current\\uCShiwa\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\michael\\AppData\\Roaming\\NuGet\\NuGet.Config",
