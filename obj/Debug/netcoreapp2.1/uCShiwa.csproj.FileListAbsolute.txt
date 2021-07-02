@@ -1,0 +1,12 @@
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\bin\Debug\netcoreapp2.1\MyApp.deps.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\bin\Debug\netcoreapp2.1\MyApp.runtimeconfig.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\bin\Debug\netcoreapp2.1\MyApp.runtimeconfig.dev.json
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\bin\Debug\netcoreapp2.1\MyApp.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\bin\Debug\netcoreapp2.1\MyApp.pdb
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\uCShiwa.csprojAssemblyReference.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\uCShiwa.AssemblyInfoInputs.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\uCShiwa.AssemblyInfo.cs
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\uCShiwa.csproj.CoreCompileInputs.cache
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\MyApp.dll
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\MyApp.pdb
+C:\Users\michael\OneDrive\Documents\Projets-InfoSec\uCShiwa-project\uCShiwa\obj\Debug\netcoreapp2.1\uCShiwa.genruntimeconfig.cache
