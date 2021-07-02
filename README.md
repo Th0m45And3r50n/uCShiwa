@@ -2,7 +2,6 @@
 - TLS encrypted reverseshell and listener in C#
 - Obfuscation script in PowerShell.
 
-![exemple1](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2-windows.PNG)
 
 ## Help & Documentation
 
@@ -12,7 +11,6 @@ Execute it without any options to print help
 
 Use the .NET Core to run the listener from Linux
 
-![exemple2](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2-linux.PNG)
 
 ## Disclamer
 
@@ -39,9 +37,7 @@ Invoke-Shellingan -cmd 'write helloworld' -iex $true -recurse 1
 ```
 Then you just have to copy-paste the output where you want execute it.
 
-### Proof Of Concept
-
-![exemple2](https://github.com/Aif4thah/uCShiwa/blob/main/POC-Shellingan.png)
+### Obfuscation POC
 
 From your attack machine:
 ```console
