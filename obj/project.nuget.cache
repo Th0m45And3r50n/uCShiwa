@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YMOY5hs9/wsdj1t4Xvat7NZheiPe5tvLX8EFfbvVe1kx9y9ZqPgLWs5mRFL0DJohQ8ny5XlZnd5RbmCsnHK2rA==",
+  "dgSpecHash": "GeFXZ570SClmG8MGPhJFbnmEVf3NhG/Hf7vGA9NhI7BeduLTttwISdILHXvUI0WH+zHCIRYLOC30IlPODlFo4g==",
   "success": true,
   "projectFilePath": "C:\\Users\\michael\\OneDrive\\Documents\\Projets-InfoSec\\uCShiwa-project\\Ucshiwa-current\\uCShiwa\\uCShiwa.csproj",
   "expectedPackageFiles": [
@@ -201,15 +201,15 @@
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xpath\\4.3.0\\system.xml.xpath.4.3.0.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\system.xml.xpath.xdocument\\4.3.0\\system.xml.xpath.xdocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\5.0.7\\microsoft.netcore.app.runtime.linux-x64.5.0.7.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\5.0.7\\microsoft.netcore.app.host.linux-x64.5.0.7.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\5.0.7\\microsoft.netcore.app.runtime.win-x64.5.0.7.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.runtime.linux-x64\\5.0.7\\microsoft.netcore.app.runtime.linux-x64.5.0.7.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.runtime.osx-x64\\5.0.7\\microsoft.netcore.app.runtime.osx-x64.5.0.7.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\5.0.7\\microsoft.windowsdesktop.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.win-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.linux-x64.5.0.7.nupkg.sha512",
     "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.osx-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.osx-x64.5.0.7.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\5.0.7\\microsoft.netcore.app.host.osx-x64.5.0.7.nupkg.sha512",
-    "C:\\Users\\michael\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.linux-x64\\5.0.7\\microsoft.aspnetcore.app.runtime.linux-x64.5.0.7.nupkg.sha512"
+    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.host.linux-x64\\5.0.7\\microsoft.netcore.app.host.linux-x64.5.0.7.nupkg.sha512",
+    "C:\\Users\\michael\\.nuget\\packages\\microsoft.netcore.app.host.osx-x64\\5.0.7\\microsoft.netcore.app.host.osx-x64.5.0.7.nupkg.sha512"
   ],
   "logs": []
 }

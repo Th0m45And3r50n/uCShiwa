@@ -11,7 +11,7 @@ using System.Management.Automation;
 
 
 // dotnet.exe .\MyApp.dll 4444 .\uCShiwa-testing.pfx ucshiwa #to debug
-// dotnet.exe publish -r win-x64 #to publish .exe
+// dotnet.exe publish -r win-x64 #to publish an .exe
 
 namespace uCShiwa
 {

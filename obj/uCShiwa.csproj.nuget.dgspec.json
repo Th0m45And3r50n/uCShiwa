@@ -116,6 +116,9 @@
         "osx-x64": {
           "#import": []
         },
+        "win-x64": {
+          "#import": []
+        },
         "win10-x64": {
           "#import": []
         }
