@@ -1,5 +1,5 @@
 # uCShiwa
-TLS encrypted reverseshell and listener in C#
+TLS encrypted reverseshell and listener in C#, with a PowerShell obfuscation module.
 
 ![exemple](https://github.com/Aif4thah/uCShiwa/blob/main/POC-v2.PNG)
 
